@@ -780,6 +780,35 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
+.bg-white\/25 {
+  background-color: rgb(255 255 255 / 0.25);
+}
+
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
+
+.bg-pink-300\/50 {
+  background-color: rgb(249 168 212 / 0.5);
+}
+
+.bg-pink-300\/40 {
+  background-color: rgb(249 168 212 / 0.4);
+}
+
+.bg-pink-300\/75 {
+  background-color: rgb(249 168 212 / 0.75);
+}
+
+.bg-pink-300\/60 {
+  background-color: rgb(249 168 212 / 0.6);
+}
+
 .bg-site {
   background-image: url('../src/assets/pink.jpg');
 }
