@@ -2,7 +2,7 @@ import { waxingServices } from '../ServicesData';
 
 const Wax = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center">
+    <div className="container mx-auto flex flex-col items-center mb-6 text-white">
       <h2 className="font-bold text-lg">Wax Services</h2>
       <ul className="flex flex-col items-center max-w-md">
         {waxingServices.map((service, index) => (
