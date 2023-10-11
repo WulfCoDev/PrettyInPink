@@ -2,14 +2,12 @@ import { waxingServices } from '../ServicesData';
 
 const Wax = () => {
   return (
-    <div className='container mx-auto'>
-        <div><h2 className="font-bold text-lg">Waxing Services</h2></div>
-      
-      <ul>
+    <div className="container mx-auto flex flex-col items-center">
+      <h2 className="font-bold text-lg">Facial Services</h2>
+      <ul className="flex flex-col items-center max-w-md">
         {waxingServices.map((service, index) => (
-          <li key={index} className="flex justify-between items-center text-center">
-            <h3 className="text-sm">{service.serviceName}</h3>
-            <p className="text-sm">{service.price}</p>
+          <li key={index} className=" flex justify-between w-full p-2 text-center">
+            <p className="text-sm">{service.serviceName} ${service.price}</p>
           </li>
         ))}
       </ul>
