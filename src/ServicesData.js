@@ -2,7 +2,7 @@
 
 export const facialServices = [
     {
-      serviceName: "Dermaplane Facial",
+      serviceName: "Dermaplane",
       serviceLength: "30 or 60 min",
       serviceType: "Facials",
       price: 60,
@@ -20,13 +20,13 @@ export const facialServices = [
         price: 75,
       },
       {
-        serviceName: "Customizable Facial",
+        serviceName: "Customizable",
         serviceLength: "30 or 60 min",
         serviceType: "Facials",
         price: 75,
       },
       {
-        serviceName: "High-Frequency Facial",
+        serviceName: "High-Frequency",
         serviceLength: "30 or 60 min",
         serviceType: "Facials",
         price: 75,
@@ -36,43 +36,43 @@ export const facialServices = [
   
   export const waxingServices = [
     {
-      serviceName: "Eyebrow Waxing",
+      serviceName: "Eyebrow",
       serviceType: "Waxing",
       serviceLength: "10 - 15 min",
       price: 20,
     },
     {
-      serviceName: "Leg Waxing",
+      serviceName: "Leg",
       serviceType: "Waxing",
       serviceLength: "30 - 45 min",
       price: 40,
     },
     {
-      serviceName: "Arm Waxing",
+      serviceName: "Arm",
       serviceType: "Waxing",
       serviceLength: "20 - 30 min",
       price: 40,
     },
     {
-      serviceName: "Lip Waxing",
+      serviceName: "Lip",
       serviceType: "Waxing",
       serviceLength: "10 - 15 min",
       price: 40,
     },
     {
-      serviceName: "Underarm Waxing",
+      serviceName: "Underarm",
       serviceType: "Waxing",
       serviceLength: "10 - 15 min",
       price: 40,
     },
     {
-      serviceName: "Nose Waxing",
+      serviceName: "Nose",
       serviceType: "Waxing",
       serviceLength: "10 - 15 min",
       price: 40,
     },
     {
-      serviceName: "Stomach Waxing",
+      serviceName: "Stomach",
       serviceType: "Waxing",
       serviceLength: "10 - 15 min",
       price: 40,
