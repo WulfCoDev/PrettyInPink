@@ -9,11 +9,11 @@ const Facials = () => {
         {facialServices.map((service, index) => (
           <li key={index} className=" flex justify-between w-full text-center flex-col">
             <div className='flex'>
-              <p className="text-lg flex justify-start mx-2">{service.serviceName} </p>
-            <p className='font-bold text-sm flex items-center'> {service.price}</p>
+              <p className="text-lg flex justify-start">{service.serviceName} </p>
+            <p className='font-bold text-xs flex items-center'> {service.price}</p>
             </div>
             
-            <p className='text-sm flex justify-start'>{service.serviceLength}</p>
+            <p className='text-xs flex justify-start'>{service.serviceLength}</p>
           </li>
         ))}
       </ul>
