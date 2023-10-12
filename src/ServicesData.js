@@ -2,7 +2,7 @@
 
 export const facialServices = [
     {
-      serviceName: "Dermaplaining",
+      serviceName: "Dermaplane Facial",
       serviceLength: "30 or 60 min",
       serviceType: "Facials",
       price: 60,
@@ -38,11 +38,43 @@ export const facialServices = [
     {
       serviceName: "Eyebrow Waxing",
       serviceType: "Waxing",
+      serviceLength: "10 - 15 min",
       price: 20,
     },
     {
       serviceName: "Leg Waxing",
       serviceType: "Waxing",
+      serviceLength: "30 - 45 min",
+      price: 40,
+    },
+    {
+      serviceName: "Arm Waxing",
+      serviceType: "Waxing",
+      serviceLength: "20 - 30 min",
+      price: 40,
+    },
+    {
+      serviceName: "Lip Waxing",
+      serviceType: "Waxing",
+      serviceLength: "10 - 15 min",
+      price: 40,
+    },
+    {
+      serviceName: "Underarm Waxing",
+      serviceType: "Waxing",
+      serviceLength: "10 - 15 min",
+      price: 40,
+    },
+    {
+      serviceName: "Nose Waxing",
+      serviceType: "Waxing",
+      serviceLength: "10 - 15 min",
+      price: 40,
+    },
+    {
+      serviceName: "Stomach Waxing",
+      serviceType: "Waxing",
+      serviceLength: "10 - 15 min",
       price: 40,
     },
     // Add more waxing services
@@ -50,13 +82,15 @@ export const facialServices = [
   
   export const eyelashServices = [
     {
-      serviceName: "Eyelash Extension - Classic",
+      serviceName: "Lash Lift",
       serviceType: "Eyelashes",
+      serviceLength: "30 min",
       price: 80,
     },
     {
-      serviceName: "Eyelash Extension - Volume",
+      serviceName: "Lash Lift & Tint",
       serviceType: "Eyelashes",
+      serviceLength: "30 - 60 min",
       price: 100,
     },
     // Add more eyelash services
