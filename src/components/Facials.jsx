@@ -10,10 +10,13 @@ const Facials = () => {
           <li key={index} className=" flex justify-between w-full text-center flex-col items-center mb-3">
             <div className='flex'>
               <p className="text-xl flex font-tertiary">{service.serviceName} </p>
-            <p className='font-bold text-xs flex items-center font-tertiary'> {service.price}</p>
-            </div>
             
-            <p className='text-xs flex justify-start font-tertiary'>{service.serviceLength}</p>
+            </div>
+            <div className='flex gap-x-1'>
+              <p className='text-xs flex justify-start font-tertiary'>{service.serviceLength} | </p>
+              <p className='font-bold text-xs flex items-center font-tertiary'> ${service.price}</p>
+              
+            </div>
           </li>
         ))}
       </ul>

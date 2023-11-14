@@ -3,7 +3,7 @@
 export const facialServices = [
     {
       serviceName: "Dermaplane",
-      serviceLength: "30 or 60 min",
+      serviceLength: "60 min",
       serviceType: "Facials",
       price: 60,
     },
