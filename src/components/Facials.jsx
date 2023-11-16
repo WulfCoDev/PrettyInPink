@@ -15,7 +15,7 @@ const Facials = () => {
         {facialServices.map((service, index) => (
           <li
             key={index}
-            className={`w-full text-center flex justify-center flex-col items-center mb-3 h-[${expandedItem === index ? 'auto' : '50'}px] overflow-hidden`}
+            className={`w-full text-center flex justify-center flex-col items-center mb-3 h-[${expandedItem === index ? 'auto' : '50'}px] transition-height duration-300 ease-in-out  overflow-hidden`}
           >
             <button
               className="flex flex-col justify-center items-center cursor-pointer"
@@ -30,7 +30,7 @@ const Facials = () => {
               </div>
               {expandedItem === index && (
                 <div className="text-xs mt-2">
-                  <p className='font-tertiary'>{service.description}</p>
+                  <p className='font-other'>{service.description}</p>
                 </div>
               )}
             </button>

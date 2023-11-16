@@ -5,6 +5,7 @@ module.exports = {
       primary: 'Lobster',
       secondary: 'Pacifico',
       tertiary: 'Quicksand',
+      other: 'Poppins',
     },
     container: {
       padding: {
@@ -28,7 +29,7 @@ module.exports = {
       },
       backgroundImage: {
 
-        site: "url('../src/assets/pink.jpg')",
+        site: "url('../src/assets/bg.jpg')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
 
