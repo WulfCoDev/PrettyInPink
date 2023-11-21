@@ -1,3 +1,4 @@
+import Eyebrows from "./Eyebrows";
 import Eyelashes from "./Eyelashes";
 import Facials from "./Facials";
 import Wax from "./Wax";
@@ -19,6 +20,7 @@ const Menu = () => {
                     <Facials />
                     <Wax />
                     <Eyelashes />
+                    <Eyebrows />
                 </div>
 
             </div>

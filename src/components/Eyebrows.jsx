@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { waxingServices } from '../ServicesData';
+import { eyebrowServices } from '../ServicesData';
 import { FaCalendarPlus, FaInfoCircle } from "react-icons/fa";
 
-const Wax = () => {
+const Eyebrows = () => {
   const [expandedItem, setExpandedItem] = useState(null);
 
   const handleItemClick = (index) => {
@@ -11,21 +11,19 @@ const Wax = () => {
 
   return (
     <div className="container mx-auto flex flex-col items-center mb-6 text-white">
-      <h2 className="font-bold text-3xl font-primary mb-4">Waxing Services</h2>
+      <h2 className="font-bold text-3xl font-primary mb-4">Eyebrow Services</h2>
       <ul className="flex flex-col items-center max-w-md">
-        {waxingServices.map((service, index) => (
+        {eyebrowServices.map((service, index) => (
           <li
             key={index}
-            className={`w-full text-center flex justify-center flex-col items-center mb-4 h-[${expandedItem === index ? 'auto' : '50'}px] overflow-hidden`}
+            className={`w-full text-center flex justify-center flex-col items-center mb-3 h-[${expandedItem === index ? 'auto' : '50'}px] overflow-hidden`}
           >
-           
               <div className="flex">
                 <p className="text-xl flex font-tertiary">{service.serviceName} </p>
               </div>
-              
               <div className="flex gap-x-4 justify-between items-center text-xs m-2">
-              <button  className='p-2 bg-pink-200/50 rounded-lg shadow-sm shadow-black' ><p>Book Now</p></button>
-                <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-300/50 rounded-lg shadow-sm shadow-black'><p>What to Expect</p></button>
+              <button  className='p-2 bg-pink-300 rounded-lg'><p>Book Now</p></button>
+                <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-300 rounded-lg'><p>What to Expect</p></button>
               </div>
               {expandedItem === index && (
                 <div className="text-xs mt-2">
@@ -36,7 +34,6 @@ const Wax = () => {
               </div>
                 </div>
               )}
-           
           </li>
         ))}
       </ul>
@@ -44,4 +41,4 @@ const Wax = () => {
   );
 };
 
-export default Wax;
+export default Eyebrows;
