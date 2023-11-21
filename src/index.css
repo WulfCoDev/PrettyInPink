@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px  #FB48C4,
+        0 0 21px #FB48C4,
+        0 0 50px #FB48C4;
+       
+    
+  }
+
+  @font-face {
+    font-family: "Blue-Style";
+    src: url("src/fonts/Blue-Style.woff") format('woff');
+  }
+
+  .blur-box {
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, 0.2);
+    box-shadow: ;
+}

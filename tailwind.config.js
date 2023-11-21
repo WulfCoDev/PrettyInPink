@@ -6,6 +6,7 @@ module.exports = {
       secondary: 'Pacifico',
       tertiary: 'Quicksand',
       other: 'Poppins',
+      fourth: 'Blue-Style',
     },
     container: {
       padding: {
