@@ -570,10 +570,6 @@ video {
   margin: 0.5rem;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .m-6 {
   margin: 1.5rem;
 }
@@ -595,16 +591,20 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-\[100px\] {
+  height: 100px;
 }
 
 .h-\[400px\] {
@@ -613,18 +613,6 @@ video {
 
 .h-auto {
   height: auto;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[100px\] {
-  height: 100px;
 }
 
 .w-full {
@@ -742,20 +730,12 @@ video {
   line-height: 1rem;
 }
 
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
 }
 
 .text-white {
@@ -783,12 +763,12 @@ video {
 }
 
 .neonText {
-  color: #FB48C4;
+  color: #FF83AC;
   text-shadow:
         0 0 7px #fff,
-        0 0 10px  #FB48C4,
-        0 0 21px #FB48C4,
-        0 0 50px #FB48C4;
+        0 0 10px  #FF83AC,
+        0 0 21px #FF83AC,
+        0 0 50px #FF83AC;
 }
 
 .neon {
