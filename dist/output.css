@@ -715,6 +715,10 @@ video {
   font-family: Reglisse_Back;
 }
 
+.font-seventh {
+  font-family: Reglisse_Fill;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
