@@ -682,6 +682,10 @@ video {
   background-size: contain;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
