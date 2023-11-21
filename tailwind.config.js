@@ -8,7 +8,8 @@ module.exports = {
       other: 'Poppins',
       fourth: 'Blue-Style',
       fifth: 'Reglisse',
-      sixth: 'Reglisse_Back'
+      sixth: 'Reglisse_Back',
+      seventh: 'Reglisse_Fill',
     },
     container: {
       padding: {

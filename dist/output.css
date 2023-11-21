@@ -603,8 +603,8 @@ video {
   display: flex;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[400px\] {
+  height: 400px;
 }
 
 .h-auto {
@@ -712,9 +712,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
+.text-\[6rem\] {
+  font-size: 6rem;
 }
 
 .text-xl {
@@ -797,6 +796,12 @@ video {
   font-family: "Reglisse_Back";
 
   src: url("/src/assets/fonts/Reglisse_Back.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Reglisse_Fill";
+
+  src: url("/src/assets/fonts/Reglisse_Fill.woff") format('woff');
 }
 
 @media (min-width: 960px) {
