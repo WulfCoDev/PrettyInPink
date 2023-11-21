@@ -7,7 +7,7 @@ const Menu = () => {
 
     return (
         <div>
-            <div className="container mx-auto border-solid border-white border-2 m-6 bg-black/10">
+            <div className="container mx-auto border-solid border-white border-2 m-6 bg-white/10">
                 {/* Title */}
                 <div className="flex justify-center items-center m-2 h-[200px]">
                     <h1 className="neonText text-white font-fourth text-6xl lg:text-6xl uppercase tracking-wider text-center">Prettie <br/> in <br/> Pink</h1>
