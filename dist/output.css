@@ -711,14 +711,6 @@ video {
   font-family: Quicksand;
 }
 
-.font-sixth {
-  font-family: Reglisse_Back;
-}
-
-.font-seventh {
-  font-family: Reglisse_Fill;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -773,10 +765,10 @@ video {
 .neonText {
   color: #fff;
   text-shadow:
-        0 0 7px #fff,
-        0 0 10px  #FF83AC,
-        0 0 21px #FF83AC,
-        0 0 50px #FF83AC;
+        0 0 7px #FB48C4,
+        0 0 10px  #FB48C4,
+        0 0 21px #FB48C4,
+        0 0 50px #FB48C4;
 }
 
 .neon {
