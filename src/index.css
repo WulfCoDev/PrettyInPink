@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .neonText {
-    color: #fff;
+    color: #FB48C4;
     text-shadow:
         0 0 7px #fff,
         0 0 10px  #FB48C4,
@@ -28,4 +28,14 @@
   @font-face {
     font-family: "Blue-Style";
     src: url("/src/assets/fonts/Blue-Style.woff") format('woff');
+  }
+
+  @font-face {
+    font-family: "Reglisse";
+    src: url("/src/assets/fonts/Reglisse.woff") format('woff');
+  }
+
+  @font-face {
+    font-family: "Reglisse_Back";
+    src: url("/src/assets/fonts/Reglisse_Back.woff") format('woff');
   }

@@ -570,12 +570,12 @@ video {
   margin: 0.5rem;
 }
 
-.m-6 {
-  margin: 1.5rem;
-}
-
 .m-4 {
   margin: 1rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
 }
 
 .mx-auto {
@@ -691,8 +691,8 @@ video {
   text-align: center;
 }
 
-.font-fourth {
-  font-family: Blue-Style;
+.font-fifth {
+  font-family: Reglisse;
 }
 
 .font-other {
@@ -712,8 +712,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -725,21 +725,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -779,7 +764,7 @@ video {
 }
 
 .neonText {
-  color: #fff;
+  color: #FB48C4;
   text-shadow:
         0 0 7px #fff,
         0 0 10px  #FB48C4,
@@ -800,6 +785,18 @@ video {
   font-family: "Blue-Style";
 
   src: url("/src/assets/fonts/Blue-Style.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Reglisse";
+
+  src: url("/src/assets/fonts/Reglisse.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Reglisse_Back";
+
+  src: url("/src/assets/fonts/Reglisse_Back.woff") format('woff');
 }
 
 @media (min-width: 960px) {

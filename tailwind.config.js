@@ -7,6 +7,8 @@ module.exports = {
       tertiary: 'Quicksand',
       other: 'Poppins',
       fourth: 'Blue-Style',
+      fifth: 'Reglisse',
+      sixth: 'Reglisse_Back'
     },
     container: {
       padding: {
