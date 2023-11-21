@@ -24,8 +24,8 @@ const Facials = () => {
                 <p className="text-xl flex font-tertiary">{service.serviceName} </p>
               </div>
               <div className="flex gap-x-4 justify-between items-center text-xs">
-              <button onClick={() => handleItemClick(index)} className='p-2'><p>What to Expect</p></button>
-                <button className='p-2'><p>Book Now</p></button>
+              <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-500 rounded-lg'><p>Book Now</p></button>
+                <button className='p-2 bg-pink-500 rounded-lg'><p>What to Expect</p></button>
               </div>
               {expandedItem === index && (
                 <div className="text-xs mt-2">
