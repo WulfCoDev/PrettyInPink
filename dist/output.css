@@ -780,7 +780,7 @@ video {
 @font-face {
   font-family: "Blue-Style";
 
-  src: url("src/fonts/Blue-Style.woff") format('woff');
+  src: url("src/assets/fonts/Blue-Style.woff") format('woff');
 }
 
 @media (min-width: 960px) {
