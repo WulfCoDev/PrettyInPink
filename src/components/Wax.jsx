@@ -23,7 +23,7 @@ const Wax = () => {
                 <p className="text-xl flex font-tertiary">{service.serviceName} </p>
               </div>
               
-              <div className="flex gap-x-4 justify-between items-center text-xs">
+              <div className="flex gap-x-4 justify-between items-center text-xs m-2">
               <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-500 rounded-lg' ><p>Book Now</p></button>
                 <button className='p-2 bg-pink-500 rounded-lg'><p>What to Expect</p></button>
               </div>
