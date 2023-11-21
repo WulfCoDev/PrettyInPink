@@ -611,6 +611,18 @@ video {
   height: auto;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -724,6 +736,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[5rem\] {
+  font-size: 5rem;
 }
 
 .font-bold {
