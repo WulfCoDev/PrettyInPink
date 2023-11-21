@@ -6,14 +6,14 @@ export const facialServices = [
       serviceLength: "60 min",
       serviceType: "Facials",
       price: 60,
-      description: "A skincare treatment that involves the use of a sterile, surgical scalpel to gently exfoliate the outermost layer of dead skin cells and remove fine/peach fuzz hairs, reduce of the appearance of fine lines and wrinkles, and promote a more even skin tone. By eliminating the layer of peach fuzz, makeup application can also become smoother and more flawless.This non-invasive procedure aims to reveal smoother, brighter skin and enhance the effectiveness of skincare products by creating a clean canvas for absorption.",
+      description: "A skincare treatment that involves the use of a sterile, surgical scalpel to gently exfoliate the outermost layer of dead skin cells and remove fine/peach fuzz hairs, reduce the appearance of fine lines and wrinkles, and promote a more even skin tone. By eliminating the layer of peach fuzz, makeup application can also become smoother and more flawless. This non-invasive procedure aims to reveal smoother, brighter skin and enhance the effectiveness of skincare products by creating a clean canvas for absorption.",
     },
     {
       serviceName: "Microdermabrasion",
       serviceLength: "30 or 60 min",
       serviceType: "Facials",
       price: "50+",
-      description: "A non-invasive procedure designed to rejuvenate and improve the texture and appearance of the skin. This treatment utilizes a specialized device that exfoliates the outermost layer of skin addressing a variety of skin concerns, including fine lines, wrinkles, sun damage, acne scars, enlarged pores, and uneven skin tone through the use of a diamond-tipped wand it has the ability to remove dead skin cells, allowing skincare products to penetrate more effectively.  A relatively gentle way to improve the overall texture and appearance of the skin, providing a rejuvenated and revitalized look that requires no downtime.",
+      description: "A non-invasive procedure designed to rejuvenate and improve the texture and appearance of the skin. This treatment utilizes a specialized device that exfoliates the outermost layer of skin addressing a variety of skin concerns, including fine lines, wrinkles, sun damage, acne scars, enlarged pores, and uneven skin tone. Through the use of a diamond-tipped wand, it has the ability to remove dead skin cells, allowing skincare products to penetrate more effectively.  A relatively gentle way to improve the overall texture and appearance of the skin, providing a rejuvenated and revitalized look that requires no downtime.",
     },
     {
       serviceName: "Wet Microdermabrasion",
@@ -27,14 +27,14 @@ export const facialServices = [
         serviceLength: "30 or 60 min",
         serviceType: "Facials",
         price: 60,
-        description: "A chemical peel facial is a procedure designed to rejuvenate and improve the appearance of the skin. It involves the application of a chemical solution to the skin, which causes the top layers to peel off, revealing smoother, refresh and revitalize the skin, promoting a more youthful and radiant appearance. This treatment is commonly used to address various skin concerns, such as fine lines, wrinkles, sun damage, acne scars, and uneven skin tone. Determine the most suitable type and strength of chemical peel based on individual skin concerns and goals. During the application, individuals may experience a tingling or mild burning sensation, which is temporary.",
+        description: "A chemical peel facial is a procedure designed to rejuvenate and improve the appearance of the skin. It involves the application of a chemical solution to the skin, which causes the top layers to peel off, revealing smoother, refreshed and revitalized skin, promoting a more youthful and radiant appearance. This treatment is commonly used to address various skin concerns, such as fine lines, wrinkles, sun damage, acne scars, and uneven skin tone. Determine the most suitable type and strength of chemical peel based on individual skin concerns and goals. During the application, individuals may experience a tingling or mild burning sensation, which is temporary.",
       },
       {
         serviceName: "Personalized Consultation",
         serviceLength: "60 min",
         serviceType: "Facials",
         price: 100,
-        description: "Indulge in the ultimate skincare experience a tailored beauty journey designed to address your unique skin needs. Begin with a thorough consultation to understand your specific concerns, lifestyle, and skincare goals. By analyzing your skin type, identifying any concerns such as dryness, oiliness, dehydration, acne, pigmentation, fine lines, uneven tone, blemishes sensitivity, or signs of aging. Create a treatment plan that includes a combination of cleansing, exfoliation, extraction (if needed), and a rejuvenating mask. Whether you're seeking hydration, anti-aging solutions, or a radiant glow. Have a guide on maintaining healthy, beautiful skin beyond the spa.",
+        description: "Indulge in the ultimate skincare experience with a tailored beauty journey designed to address your unique skin needs. Begin with a thorough consultation to understand your specific concerns, lifestyle, and skincare goals. By analyzing your skin type, identifying any concerns such as dryness, oiliness, dehydration, acne, pigmentation, fine lines, uneven tone, blemish sensitivity, or signs of aging, create a treatment plan that includes a combination of cleansing, exfoliation, extraction (if needed), and a rejuvenating mask. Whether you're seeking hydration, anti-aging solutions, or a radiant glow, have a personal guide on maintaining healthy, beautiful skin beyond the spa.",
       },
       {
         serviceName: "High-Frequency",
