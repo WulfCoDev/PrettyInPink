@@ -14,7 +14,7 @@ const Menu = () => {
                 </div>
                 {/* Image */}
                 <div className="flex justify-center items-center">
-                    <img src="public/header.png" />
+                    <img src="public/header.png" alt="headerImg"/>
                 </div>
 
                 {/* Services */}
