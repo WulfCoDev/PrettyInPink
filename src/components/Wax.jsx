@@ -11,7 +11,7 @@ const Wax = () => {
 
   return (
     <div className="container mx-auto flex flex-col items-center mb-6 text-white">
-      <h2 className="font-bold text-3xl font-primary mb-4">Waxing Services</h2>
+      <h2 className="font-bold text-3xl font-primary mb-4 neonText">Waxing Services</h2>
       <ul className="flex flex-col items-center max-w-md">
         {waxingServices.map((service, index) => (
           <li
@@ -24,8 +24,8 @@ const Wax = () => {
               </div>
               
               <div className="flex gap-x-4 justify-between items-center text-xs m-2">
-              <button  className='p-2 bg-pink-200/50 rounded-lg shadow-sm shadow-black' ><p>Book Now</p></button>
-                <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-300/50 rounded-lg shadow-sm shadow-black'><p>What to Expect</p></button>
+              <button  className='p-2 bg-pink-300 rounded-lg shadow-sm shadow-black' ><p>Book Now</p></button>
+                <button onClick={() => handleItemClick(index)} className='p-2 bg-pink-300 rounded-lg shadow-sm shadow-black'><p>What to Expect</p></button>
               </div>
               {expandedItem === index && (
                 <div className="text-xs mt-2">
