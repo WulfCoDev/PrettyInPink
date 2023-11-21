@@ -15,7 +15,7 @@ const Menu = () => {
                     <h1 className="neonText font-fifth text-[6rem] lg:text-6xl uppercase text-center h-[100px]">Pink</h1>
                 </div>
                 {/* Image */}
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center mb-7">
                     <img src="/header.png" alt="headerImg"/>
                 </div>
 
