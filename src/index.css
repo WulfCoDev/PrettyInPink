@@ -44,3 +44,8 @@
     font-family: "Reglisse_Fill";
     src: url("/src/assets/fonts/Reglisse_Fill.woff") format('woff');
   }
+
+  @font-face {
+    font-family: "Retrolight";
+    src: url("/src/assets/fonts/Retrolight.woff") format('woff');
+  }

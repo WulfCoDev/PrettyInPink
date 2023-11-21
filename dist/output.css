@@ -695,8 +695,8 @@ video {
   text-align: center;
 }
 
-.font-fifth {
-  font-family: Reglisse;
+.font-eighth {
+  font-family: Retrolight;
 }
 
 .font-other {
@@ -709,14 +709,6 @@ video {
 
 .font-tertiary {
   font-family: Quicksand;
-}
-
-.font-sixth {
-  font-family: Reglisse_Back;
-}
-
-.font-seventh {
-  font-family: Reglisse_Fill;
 }
 
 .text-3xl {
@@ -810,6 +802,12 @@ video {
   font-family: "Reglisse_Fill";
 
   src: url("/src/assets/fonts/Reglisse_Fill.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Retrolight";
+
+  src: url("/src/assets/fonts/Retrolight.woff") format('woff');
 }
 
 @media (min-width: 960px) {

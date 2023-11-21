@@ -10,6 +10,7 @@ module.exports = {
       fifth: 'Reglisse',
       sixth: 'Reglisse_Back',
       seventh: 'Reglisse_Fill',
+      eighth: 'Retrolight',
     },
     container: {
       padding: {
