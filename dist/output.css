@@ -674,6 +674,10 @@ video {
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
 .bg-site {
   background-image: url('../src/assets/bg.jpg');
 }
