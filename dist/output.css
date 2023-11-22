@@ -747,6 +747,15 @@ video {
   font-size: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -757,6 +766,10 @@ video {
 
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 
 .text-white {
