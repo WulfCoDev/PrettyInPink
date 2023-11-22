@@ -31,13 +31,13 @@
   }
 
   @font-face {
-    font-family: "Reglisse";
-    src: url("/src/assets/fonts/Reglisse.woff") format('woff');
+    font-family: "Dezire Stacked";
+    src: url("/src/assets/fonts/Dezire\ Stacked.woff") format('woff');
   }
 
   @font-face {
-    font-family: "Chicago-Darling-Serif";
-    src: url("/src/assets/fonts/Chicago-Darling-Serif.woff") format('woff');
+    font-family: "Plante";
+    src: url("/src/assets/fonts/Plante.woff") format('woff');
   }
 
   @font-face {

@@ -695,6 +695,10 @@ video {
   text-align: center;
 }
 
+.font-eighth {
+  font-family: Dezire Stacked;
+}
+
 .font-other {
   font-family: Poppins;
 }
@@ -703,16 +707,8 @@ video {
   font-family: Lobster;
 }
 
-.font-seventh {
-  font-family: Royalacid_o;
-}
-
 .font-tertiary {
   font-family: Quicksand;
-}
-
-.font-eighth {
-  font-family: Chicago-Darling-Serif;
 }
 
 .text-3xl {
@@ -791,15 +787,15 @@ video {
 }
 
 @font-face {
-  font-family: "Reglisse";
+  font-family: "Dezire Stacked";
 
-  src: url("/src/assets/fonts/Reglisse.woff") format('woff');
+  src: url("/src/assets/fonts/Dezire\ Stacked.woff") format('woff');
 }
 
 @font-face {
-  font-family: "Chicago-Darling-Serif";
+  font-family: "Plante";
 
-  src: url("/src/assets/fonts/Chicago-Darling-Serif.woff") format('woff');
+  src: url("/src/assets/fonts/Plante.woff") format('woff');
 }
 
 @font-face {

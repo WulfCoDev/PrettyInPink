@@ -8,9 +8,9 @@ module.exports = {
       other: 'Poppins',
       fourth: 'Blue-Style',
       fifth: 'Reglisse',
-      sixth: 'Royalacid',
+      sixth: 'Plante',
       seventh: 'Royalacid_o',
-      eighth: 'Chicago-Darling-Serif',
+      eighth: 'Dezire Stacked',
     },
     container: {
       padding: {
