@@ -11,8 +11,8 @@ const Facials = () => {
   };
 
   return (
-    <div className="container mx-auto flex flex-col items-center mb-6 text-white">
-      <h2 className="font-bold text-3xl font-primary mb-4 neon">Facial Services</h2>
+    <div className="container mx-auto flex flex-col items-center justify-center mb-6 text-white">
+      <h2 className="text-3xl font-sixth mb-4 neon">Facial Services</h2>
       <ul className="flex flex-col items-center max-w-md">
         {facialServices.map((service, index) => (
           <li

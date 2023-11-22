@@ -9,8 +9,6 @@ module.exports = {
       fourth: 'Blue-Style',
       fifth: 'Reglisse',
       sixth: 'Plante',
-      seventh: 'Royalacid_o',
-      eighth: 'Dezire Stacked',
     },
     container: {
       padding: {

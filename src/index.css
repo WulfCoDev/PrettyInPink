@@ -31,21 +31,6 @@
   }
 
   @font-face {
-    font-family: "Dezire Stacked";
-    src: url("/src/assets/fonts/Dezire\ Stacked.woff") format('woff');
-  }
-
-  @font-face {
     font-family: "Plante";
     src: url("/src/assets/fonts/Plante.woff") format('woff');
-  }
-
-  @font-face {
-    font-family: "Royalacid_o";
-    src: url("/src/assets/fonts/Royalacid_o.woff") format('woff');
-  }
-
-  @font-face {
-    font-family: "Retrolight";
-    src: url("/src/assets/fonts/Retrolight.woff") format('woff');
   }

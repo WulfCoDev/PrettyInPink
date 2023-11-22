@@ -665,11 +665,6 @@ video {
   border-style: solid;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -700,8 +695,8 @@ video {
   text-align: center;
 }
 
-.font-eighth {
-  font-family: Dezire Stacked;
+.font-fifth {
+  font-family: Reglisse;
 }
 
 .font-other {
@@ -712,12 +707,12 @@ video {
   font-family: Lobster;
 }
 
-.font-tertiary {
-  font-family: Quicksand;
-}
-
 .font-sixth {
   font-family: Plante;
+}
+
+.font-tertiary {
+  font-family: Quicksand;
 }
 
 .text-3xl {
@@ -725,8 +720,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-\[4rem\] {
-  font-size: 4rem;
+.text-\[5rem\] {
+  font-size: 5rem;
 }
 
 .text-xl {
@@ -739,20 +734,29 @@ video {
   line-height: 1rem;
 }
 
-.text-\[5rem\] {
-  font-size: 5rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .uppercase {
   text-transform: uppercase;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 .text-white {
@@ -760,15 +764,13 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[3xl\] {
+  color: 3xl;
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-inner {
-  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -780,11 +782,6 @@ video {
 
 .shadow-black {
   --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-white {
-  --tw-shadow-color: #fff;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -821,27 +818,9 @@ video {
 }
 
 @font-face {
-  font-family: "Dezire Stacked";
-
-  src: url("/src/assets/fonts/Dezire\ Stacked.woff") format('woff');
-}
-
-@font-face {
   font-family: "Plante";
 
   src: url("/src/assets/fonts/Plante.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Royalacid_o";
-
-  src: url("/src/assets/fonts/Royalacid_o.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Retrolight";
-
-  src: url("/src/assets/fonts/Retrolight.woff") format('woff');
 }
 
 @media (min-width: 960px) {
