@@ -619,21 +619,12 @@ video {
   width: 100%;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -696,26 +687,12 @@ video {
   background-size: contain;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
 
 .text-center {
   text-align: center;
-}
-
-.font-fifth {
-  font-family: Reglisse;
 }
 
 .font-other {
@@ -726,16 +703,16 @@ video {
   font-family: Lobster;
 }
 
+.font-seventh {
+  font-family: Royalacid_o;
+}
+
 .font-tertiary {
   font-family: Quicksand;
 }
 
-.font-sixth {
-  font-family: Royalacid;
-}
-
-.font-seventh {
-  font-family: Royalacid_o;
+.font-eighth {
+  font-family: Chicago-Darling-Serif;
 }
 
 .text-3xl {
@@ -743,8 +720,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-\[6rem\] {
-  font-size: 6rem;
+.text-\[4rem\] {
+  font-size: 4rem;
 }
 
 .text-xl {
@@ -755,18 +732,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-
-.text-\[4rem\] {
-  font-size: 4rem;
-}
-
-.text-\[4\.5rem\] {
-  font-size: 4.5rem;
 }
 
 .font-bold {
@@ -832,9 +797,9 @@ video {
 }
 
 @font-face {
-  font-family: "Royalacid";
+  font-family: "Chicago-Darling-Serif";
 
-  src: url("/src/assets/fonts/Royalacid.woff") format('woff');
+  src: url("/src/assets/fonts/Chicago-Darling-Serif.woff") format('woff');
 }
 
 @font-face {

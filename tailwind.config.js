@@ -10,7 +10,7 @@ module.exports = {
       fifth: 'Reglisse',
       sixth: 'Royalacid',
       seventh: 'Royalacid_o',
-      eighth: 'Retrolight',
+      eighth: 'Chicago-Darling-Serif',
     },
     container: {
       padding: {
