@@ -9,10 +9,10 @@ const Menu = () => {
         <div>
             <div className="container mx-auto border-solid border-white border-2 m-6 bg-white/10">
                 {/* Title */}
-                <div className="flex font-sixth justify-center items-center h-[400px] flex-col">
-                    <h1 className="neonText text-[5rem] lg:text-6xl uppercase text-center h-[100px]">Prettie</h1>
-                    <h1 className="neonText text-[5rem] lg:text-6xl uppercase text-center h-[100px]">in</h1>
-                    <h1 className="neonText text-[5rem] lg:text-6xl uppercase text-center h-[100px]">Pink</h1>
+                <div className="flex font-seventh text-[4rem] justify-center items-center h-[400px] flex-col">
+                    <h1 className="neonText lg:text-6xl uppercase text-center h-[100px]">Prettie</h1>
+                    <h1 className="neonText lg:text-6xl uppercase text-center h-[100px]">in</h1>
+                    <h1 className="neonText lg:text-6xl uppercase text-center h-[100px]">Pink</h1>
                 </div>
                 {/* Image */}
                 <div className="flex justify-center items-center mb-7">

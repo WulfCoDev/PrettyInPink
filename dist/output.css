@@ -715,6 +715,10 @@ video {
   font-family: Royalacid;
 }
 
+.font-seventh {
+  font-family: Royalacid_o;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -736,6 +740,10 @@ video {
 
 .text-\[5rem\] {
   font-size: 5rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
 }
 
 .font-bold {
