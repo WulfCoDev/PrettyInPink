@@ -36,13 +36,13 @@
   }
 
   @font-face {
-    font-family: "Reglisse_Back";
-    src: url("/src/assets/fonts/Reglisse_Back.woff") format('woff');
+    font-family: "Royalacid";
+    src: url("/src/assets/fonts/Royalacid.woff") format('woff');
   }
 
   @font-face {
-    font-family: "Reglisse_Fill";
-    src: url("/src/assets/fonts/Reglisse_Fill.woff") format('woff');
+    font-family: "Royalacid_o";
+    src: url("/src/assets/fonts/Royalacid_o.woff") format('woff');
   }
 
   @font-face {

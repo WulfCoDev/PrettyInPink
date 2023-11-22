@@ -8,8 +8,8 @@ module.exports = {
       other: 'Poppins',
       fourth: 'Blue-Style',
       fifth: 'Reglisse',
-      sixth: 'Reglisse_Back',
-      seventh: 'Reglisse_Fill',
+      sixth: 'Royalacid',
+      seventh: 'Royalacid_o',
       eighth: 'Retrolight',
     },
     container: {

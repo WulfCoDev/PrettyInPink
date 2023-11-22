@@ -695,8 +695,8 @@ video {
   text-align: center;
 }
 
-.font-eighth {
-  font-family: Retrolight;
+.font-fifth {
+  font-family: Reglisse;
 }
 
 .font-other {
@@ -711,8 +711,8 @@ video {
   font-family: Quicksand;
 }
 
-.font-fifth {
-  font-family: Reglisse;
+.font-sixth {
+  font-family: Royalacid;
 }
 
 .text-3xl {
@@ -732,6 +732,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[5rem\] {
+  font-size: 5rem;
 }
 
 .font-bold {
@@ -797,15 +801,15 @@ video {
 }
 
 @font-face {
-  font-family: "Reglisse_Back";
+  font-family: "Royalacid";
 
-  src: url("/src/assets/fonts/Reglisse_Back.woff") format('woff');
+  src: url("/src/assets/fonts/Royalacid.woff") format('woff');
 }
 
 @font-face {
-  font-family: "Reglisse_Fill";
+  font-family: "Royalacid_o";
 
-  src: url("/src/assets/fonts/Reglisse_Fill.woff") format('woff');
+  src: url("/src/assets/fonts/Royalacid_o.woff") format('woff');
 }
 
 @font-face {
