@@ -10,7 +10,7 @@ const Wax = () => {
 
   return (
     <div className="container mx-auto flex flex-col items-center mb-6 text-white">
-      <h2 className="text-3xl font-sixth mb-4 neon">Waxing Services</h2>
+      <h2 className="text-4xl font-medium font-tertiary mb-4 neon">Waxing Services</h2>
       <ul className="flex flex-col items-center max-w-md">
         {waxingServices.map((service, index) => (
           <li
