@@ -15,13 +15,7 @@ export const facialServices = [
       price: "50+",
       description: "A non-invasive procedure designed to rejuvenate and improve the texture and appearance of the skin. This treatment utilizes a specialized device that exfoliates the outermost layer of skin addressing a variety of skin concerns, including fine lines, wrinkles, sun damage, acne scars, enlarged pores, and uneven skin tone. Through the use of a diamond-tipped wand, it has the ability to remove dead skin cells, allowing skincare products to penetrate more effectively.  A relatively gentle way to improve the overall texture and appearance of the skin, providing a rejuvenated and revitalized look that requires no downtime.",
     },
-    {
-      serviceName: "Wet Microdermabrasion",
-      serviceLength: "30 or 60 min",
-      serviceType: "Facials",
-      price: 75,
-      description: "This service includes Pre Cleanse, Skin Analysis, Cleanser, Microdermabrasion, Hydrating Toner, Hydrating Mask, Hydrating Moisturizer, Mineral Sunscreen.",
-    },
+    
     {
         serviceName: "Chemical Peel",
         serviceLength: "30 or 60 min",
