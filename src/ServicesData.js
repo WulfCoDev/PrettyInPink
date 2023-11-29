@@ -122,10 +122,17 @@ export const facialServices = [
     },
     {
       serviceName: "Eyebrow Shaping",
-      serviceType: "Waxing",
+      serviceType: "Eyebrow",
       serviceLength: "20 min",
       price: 25,
       description: "Removing excess or unwanted hair using a formulated wax. This technique provides a clean and precise result, enhancing the natural arch and contour of the eyebrows to complement the individual's facial features. formulated wax to the eyebrow area using a disposable applicator or a waxing spatula. The wax adheres to the hair and not the skin. Tweezers are also used to precisely shape the eyebrows further by removing any remaining stray hairs.",
+    },
+    {
+      serviceName: "Eyebrow Threading",
+      serviceType: "Eyebrow",
+      serviceLength: "20 min",
+      price: 12,
+      description: "",
     },
     // Add more eyebrow services
   ];  
