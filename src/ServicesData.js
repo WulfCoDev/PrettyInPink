@@ -10,7 +10,7 @@ export const facialServices = [
     },
     {
       serviceName: "Microdermabrasion",
-      serviceLength: "30 or 60 min",
+      serviceLength: "30+ min",
       serviceType: "Facials",
       price: "50+",
       description: "A non-invasive procedure designed to rejuvenate and improve the texture and appearance of the skin. This treatment utilizes a specialized device that exfoliates the outermost layer of skin addressing a variety of skin concerns, including fine lines, wrinkles, sun damage, acne scars, enlarged pores, and uneven skin tone. Through the use of a diamond-tipped wand, it has the ability to remove dead skin cells, allowing skincare products to penetrate more effectively.  A relatively gentle way to improve the overall texture and appearance of the skin, providing a rejuvenated and revitalized look that requires no downtime.",
@@ -18,9 +18,9 @@ export const facialServices = [
     
     {
         serviceName: "Chemical Peel",
-        serviceLength: "30 or 60 min",
+        serviceLength: "30+ min",
         serviceType: "Facials",
-        price: 60,
+        price: "60+",
         description: "A chemical peel facial is a procedure designed to rejuvenate and improve the appearance of the skin. It involves the application of a chemical solution to the skin, which causes the top layers to peel off, revealing smoother, refreshed and revitalized skin, promoting a more youthful and radiant appearance. This treatment is commonly used to address various skin concerns, such as fine lines, wrinkles, sun damage, acne scars, and uneven skin tone. Determine the most suitable type and strength of chemical peel based on individual skin concerns and goals. During the application, individuals may experience a tingling or mild burning sensation, which is temporary.",
       },
       {
@@ -99,7 +99,7 @@ export const facialServices = [
       serviceName: "Lash Lift",
       serviceType: "Eyelashes",
       serviceLength: "30 min",
-      price: 80,
+      price: 60,
       description: "This treatment provides a semi-permanent way to lift and curl the lashes, creating a more open and lifted look to the eyes. The lashes will stay curled depending on the natural growth cycle of the lashes.",
     },
     {
@@ -121,11 +121,11 @@ export const facialServices = [
       description: "Removing excess or unwanted hair using a formulated wax. This technique provides a clean and precise result, enhancing the natural arch and contour of the eyebrows to complement the individual's facial features. formulated wax to the eyebrow area using a disposable applicator or a waxing spatula. The wax adheres to the hair and not the skin. Tweezers are also used to precisely shape the eyebrows further by removing any remaining stray hairs.",
     },
     {
-      serviceName: "Eyebrow Shaping",
+      serviceName: "Eyebrow Waxing",
       serviceType: "Eyebrow",
       serviceLength: "20 min",
       price: 25,
-      description: "Removing excess or unwanted hair using a formulated wax. This technique provides a clean and precise result, enhancing the natural arch and contour of the eyebrows to complement the individual's facial features. formulated wax to the eyebrow area using a disposable applicator or a waxing spatula. The wax adheres to the hair and not the skin. Tweezers are also used to precisely shape the eyebrows further by removing any remaining stray hairs.",
+      description: "",
     },
     {
       serviceName: "Eyebrow Threading",
